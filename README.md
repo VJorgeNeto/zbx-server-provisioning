@@ -51,3 +51,4 @@ Habilita os serviços para inicialização automática
 
 📄 Licença
 Distribuído sob a licença MIT.
+Desenvolvido por @VJorgeNeto 🚀
