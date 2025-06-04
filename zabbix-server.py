@@ -1,3 +1,28 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Script: zabbix-server.py
+Autor: VJorgeNeto (@VJorgeNeto)
+Descrição: Automatiza o provisionamento do Zabbix Server 7.0 LTS com Apache2 e MySQL no Ubuntu Server 24.04.
+Versão: 1.0.1
+
+Uso:
+    sudo python3 zabbix-server.py
+
+Requisitos:
+    - Ubuntu Server 24.04
+    - Conexão com a internet
+    - Acesso root (sudo)
+
+Funcionalidades:
+    - Instalação do MySQL Server
+    - Instalação e configuração do Apache2
+    - Download e instalação do repositório oficial Zabbix
+    - Configuração automática do banco de dados e serviços
+
+Licença:
+    MIT License
+"""
 import subprocess
 import os
 
